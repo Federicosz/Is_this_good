@@ -396,3 +396,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+branded_food.csv
+food.csv
+food_attribute.csv
+food_attribute_type.csv
+food_nutrient.csv
+food_update_log_entry.csv
+measure_unit.csv
+microbe.csv
+nutrient.csv
+FoodData_Central_branded_food_csv_2023-10-26.zip
