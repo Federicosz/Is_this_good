@@ -1,0 +1,27 @@
+id,name,unit_name,nutrient_nbr,rank
+2047,Energy (Atwater General Factors),KCAL,957,280
+2048,Energy (Atwater Specific Factors),KCAL,958,290
+1003,Protein,G,203,600
+1004,Total lipid (fat),G,204,800
+1005,"Carbohydrate, by difference",G,205,1110
+1006,"Fiber, crude (DO NOT USE - Archived)",G,206,999999
+1008,Energy,KCAL,208,300
+1050,"Carbohydrate, by summation",G,205.2,1120
+1057,Caffeine,MG,262,18300
+1062,Energy,kJ,268,400
+1063,"Sugars, Total",G,269.3,1500
+1066,"Fiber, neutral detergent (DO NOT USE - Archived)",G,273,999999
+1079,"Fiber, total dietary",G,291,1200
+1085,Total fat (NLEA),G,298,900
+1086,Total sugar alcohols,G,299,999999
+1257,"Fatty acids, total trans",G,605,15400
+1258,"Fatty acids, total saturated",G,606,9700
+1291,"Fatty acids, other than 607-615, 617-621, 624-632, 652-654, 686-689)",G,644,999999
+1292,"Fatty acids, total monounsaturated",G,645,11400
+1293,"Fatty acids, total polyunsaturated",G,646,12900
+1318,"Fatty acids, saturated, other",G,677,999999
+1319,"Fatty acids, monounsat., other",G,678,999999
+1320,"Fatty acids, polyunsat., other",G,679,999999
+2000,"Sugars, total including NLEA",G,269,1510
+2033,Total dietary fiber (AOAC 2011.25),G,293,1300
+2039,Carbohydrates,G,956,1100
