@@ -22,13 +22,13 @@ with engine.connect() as com:
     food_category=pd.read_sql(query_food_category,com)
 category_selector=st.multiselect('select food categories',food_category)
 
-#select botton for food_categor
+#select botton for food_category
 query_brand_name=text('select distinct brand_name from branded_u')
 with engine.connect() as com:
     brand_category=pd.read_sql(query_brand_name,com)
 brand_selector=st.multiselect('select brand',brand_category)
 
-if category_selector:
+if category_selector or brand_selector:
     query_food=text(f'select * from branded_u where branded_food_category in {category_selector}'.replace('[','(').replace(']',')'))
     with engine.connect() as com:
         food_avai=pd.read_sql(query_food,com)
