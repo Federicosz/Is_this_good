@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-pip install pymysql
 import pymysql
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
