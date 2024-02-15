@@ -2,3 +2,4 @@ pymysql
 SQLAlchemy
 python-dotenv
 seaborn
+plotly
