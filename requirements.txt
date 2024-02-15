@@ -1,3 +1,6 @@
 pymysql
 SQLAlchemy
 python-dotenv
+seaborn
+plotly.express
+sys
