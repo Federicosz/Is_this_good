@@ -25,7 +25,7 @@ To compare different food options in the graph, click on the "select" column of 
 
 ### Select a specific product
 
-![specific product](https://github.com/Federicosz/Is_this_good/blob/main/pictures/spec_product selection.png)
+![specific product](https://github.com/Federicosz/Is_this_good/blob/main/pictures/spec_product_selection.png)
 
 If you want more information on a specific product, you can select it from the list. This will show you details such as the nutrients, ingredients, and the relative amounts of fat, fiber, protein, and total sugar.
 
