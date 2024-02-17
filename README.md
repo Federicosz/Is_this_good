@@ -1,18 +1,33 @@
-# Mastering FPS Games: Recommendations for Competitive Success
+# Is this good: An exploration of American Branded food
 
-This project offers a game and game character recommendation system tailored for players who play or want to play Apex, Battlefield 2042, Overwatch, or Rainbow Six Siege, utilizing top player statistics from these games to suggest optimal character choices based on individual play style and preferences.
-
-
+This project aims to empower consumers to avoid "toxic" foods and help them select the best products to meet their goals. The project is based on the dataset provided by the USDA (U.S. Department of Agriculture) for the branded food release in October 2023. It intends to provide an easier and more efficient way for users to search for branded foods with specific nutrient and ingredient characteristics.
 
 
-## Documentation
+## Demo
 
-Use this app to get your Recommendation!   
-[Recommendation App](https://fpscharacters.streamlit.app/)
+### Home
+![home](pictures\homescreen_isthisgood.png)
 
-[Presentation](https://www.canva.com/design/DAF8BzT-_TI/m-TQjWzlypULQCu0Cro_0g/view)
+### Inicial Selection
+![select food category(ies),food brand(s) and ingridient(s) to avoid](pictures\selection.png)
 
-[Tableu KPIs](https://public.tableau.com/app/profile/natalie.lewis/viz/MasteringCompetitiveGaming/Game_Analysis)
+You can begin by choosing either the category or the brand. Once you make a selection, the app will automatically apply a filter based on your choice. To prevent any errors, please wait until this process is complete before making any other selections.
+
+### Nutrient selection
+
+![select and filter nutrients](pictures\selection.png)
+
+### select food to compare
+
+![branded food to compare](pictures\select_comparation_isthisgood.png)
+
+To compare different food options in the graph, click on the "select" column of the "Product Available" table to add the desired food.
+
+### select an specifique product
+
+![](pictures\spec_product selection.png)
+
+If you want more information on a specific product, you can select it from the list. This will show you details such as the nutrients, ingredients, and the relative amounts of fat, fiber, protein, and total sugar.
 
 ## Lessons Learned
 
@@ -39,9 +54,6 @@ By reflecting on these lessons learned, we aim to continually improve our approa
 
 ## Authors
 
-- [Natalie Lewis](https://github.com/nlewism)
+- [Federico Sarmiento Z.](https://github.com/Federicosz)
   
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/analyst-natalie/)
-- [Samiel Zengotita](https://github.com/samielzaret7)
-  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zengotita/)
+[![Linkedin Badge](https://img.shields.io/badge/-federico_Sarmiento_Z-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/fsarmientoz/)](https://www.linkedin.com/in/fsarmientoz/)
