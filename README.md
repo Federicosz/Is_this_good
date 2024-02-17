@@ -9,23 +9,23 @@ This project aims to empower consumers to avoid "toxic" foods and help them sele
 ![home](https://github.com/Federicosz/Is_this_good/blob/main/pictures/homescreen_isthisgood.png) 
 
 ### Inicial Selection
-![select food category(ies),food brand(s) and ingredient(s) to avoid](https://github.com/Federicosz/Is_this_good/blob/main/pictures\selection.png)
+![select food category(ies),food brand(s) and ingredient(s) to avoid](https://github.com/Federicosz/Is_this_good/blob/main/pictures/selection.png)
 
 You can begin by choosing either the category or the brand. Once you make a selection, the app will automatically apply a filter based on your choice. To prevent any errors, please wait until this process is complete before making any other selections.
 
 ### Nutrient selection
 
-![select and filter nutrients](https://github.com/Federicosz/Is_this_good/blob/main/pictures\selection.png)
+![select and filter nutrients](https://github.com/Federicosz/Is_this_good/blob/main/pictures/selection.png)
 
 ### Select food to compare
 
-![branded food to compare](https://github.com/Federicosz/Is_this_good/blob/main/pictures\select_comparation_isthisgood.png)
+![branded food to compare](https://github.com/Federicosz/Is_this_good/blob/main/pictures/select_comparation_isthisgood.png)
 
 To compare different food options in the graph, click on the "select" column of the "Product Available" table to add the desired food.
 
 ### Select a specific product
 
-![specific product](https://github.com/Federicosz/Is_this_good/blob/main/pictures\spec_product selection.png)
+![specific product](https://github.com/Federicosz/Is_this_good/blob/main/pictures/spec_product selection.png)
 
 If you want more information on a specific product, you can select it from the list. This will show you details such as the nutrients, ingredients, and the relative amounts of fat, fiber, protein, and total sugar.
 
