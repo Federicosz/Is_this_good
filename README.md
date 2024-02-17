@@ -6,7 +6,7 @@ This project aims to empower consumers to avoid "toxic" foods and help them sele
 ## Demo
 
 ### Home
-![home](pictures\homescreen_isthisgood.png)
+![home]('pictures\homescreen_isthisgood.png') 
 
 ### Inicial Selection
 ![select food category(ies),food brand(s) and ingridient(s) to avoid](pictures\selection.png)
