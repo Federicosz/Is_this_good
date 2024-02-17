@@ -15,7 +15,7 @@ You can begin by choosing either the category or the brand. Once you make a sele
 
 ### Nutrient selection
 
-![select and filter nutrients](https://github.com/Federicosz/Is_this_good/blob/main/pictures/selection.png)
+![select and filter nutrients](https://github.com/Federicosz/Is_this_good/blob/main/pictures/nutrient_selection.png)
 
 ### Select food to compare
 
