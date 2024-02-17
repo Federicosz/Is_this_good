@@ -2,8 +2,22 @@
 
 This project aims to empower consumers to avoid "toxic" foods and help them select the best products to meet their goals. The project is based on the dataset provided by the USDA (U.S. Department of Agriculture) for the branded food release in October 2023. It intends to provide an easier and more efficient way for users to search for branded foods with specific nutrient and ingredient characteristics.
 
+# libraries
+- python 3.11
+- Streamlit
+- pymysql
+- SQLAlchemy
+- python-dotenv
+- seaborn
+- plotly
 
-## Demo
+# key aspect
+
+1. The nutrients selected for the app were: Protein, Fat, Carbohydrate, Calories, Fiber, Sodium, Suggar added, Cholesterol, Trans fat and Total sugars.
+2. The clean dataset has more than 300k different products. Small changes such as flavor or size that didn't affect the nutrient composition were taken as duplicates.
+3. The total size of the dataset is 3.1Gb.
+
+# Demo
 
 ### Home
 ![home](https://github.com/Federicosz/Is_this_good/blob/main/pictures/homescreen_isthisgood.png) 
@@ -29,31 +43,24 @@ To compare different food options in the graph, click on the "select" column of 
 
 If you want more information on a specific product, you can select it from the list. This will show you details such as the nutrients, ingredients, and the relative amounts of fat, fiber, protein, and total sugar.
 
-## Lessons Learned
+# Conclusion
 
-- Clear Project Goals: Taking time in the initial phase to clearly define project goals and expected outcomes proved invaluable. This ensured alignment within the team and provided a roadmap for development.
+1. **Limited Scope:** The current app approach relies on predefined food categories and may miss important food products. This could be addressed by expanding the dataset or refining the categorization process.
+2. **Lack of Domain Understanding:** Without a deep understanding of the food industry, biases may influence decisions on what to include or exclude from the analysis. Seeking expert advice or conducting thorough research can help mitigate this issue.
+3. **Data Cleaning Challenges:** too many food products with small variation or some process work in the sample but not in the all dataset.
 
-- Patience and Perseverance: Scraping data from multiple websites presented significant challenges, particularly with websites employing shadow_roots. Overcoming these obstacles required patience and perseverance, highlighting the importance of persistence in the face of adversity.
+# Future work
 
-- Data Normalization: Implementing data normalization techniques facilitated the matching and integration of multiple datasets. This streamlined the data cleaning process and improved the efficiency of data analysis.
-
-- Effective Project Management: Utilizing project management tools such as Kanban Boards helped maintain organization and increase productivity. Clear task prioritization and progress tracking ensured that the team remained focused and on schedule.
-
-- Collaborative Coding: While dividing tasks can be effective, the project team found that pair coding proved advantageous in certain situations. Collaborative coding fostered knowledge sharing, problem-solving, and faster resolution of issues.
-
-- Recommendation for Future Projects: For individuals embarking on similar projects, we recommend allocating sufficient time at the beginning to map out project objectives and establish a clear direction. Additionally, prioritizing patience, perseverance, and effective project management practices can greatly contribute to the success of the project.
-
-By reflecting on these lessons learned, we aim to continually improve our approach to future projects and foster a culture of continuous learning and growth within our team.
-
+1. **Inclusion of Toxic Ingredients:** Adding data on toxic ingredients can enhance the analysis by providing insights into potential health risks associated with certain products. This could involve sourcing data from reputable sources or conducting toxicity assessments.
+2. **Product Availability Information:** Incorporating data on where to find products can be valuable for consumers seeking specific items. This could involve mapping product availability across different retailers or locations.
+3. **Implementation of a Suggestion Model:** Developing a suggestion model can improve the user experience by recommending suitable food products based on individual preferences, dietary requirements, or health goals. This could utilize machine learning algorithms and user feedback to refine recommendations over time.
 
 ## Acknowledgements
 
  - [Our Awesome Teacher](https://github.com/Rairocha)
 
-
-
 ## Authors
 
-- [Federico Sarmiento Z.](https://github.com/Federicosz)
+- [Federico Sarmiento Z.](https://github.com/Federicosz) [![Linkedin Badge](https://img.shields.io/badge/-federico_Sarmiento_Z-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/fsarmientoz/)](https://www.linkedin.com/in/fsarmientoz/)
   
-[![Linkedin Badge](https://img.shields.io/badge/-federico_Sarmiento_Z-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/fsarmientoz/)](https://www.linkedin.com/in/fsarmientoz/)
+
